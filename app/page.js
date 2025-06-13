@@ -18,10 +18,10 @@ export default function Home() {
         {/* Main Content Area */}
         <div className="flex flex-col md:flex-row flex-grow items-center justify-around">
           {/* Left Section: Profile 1 */}
-          <div className="flex-1 flex justify-center items-center p-4 transform transition-transform duration-500 hover:scale-105 hover:z-10">
+          <div className="flex-1 flex justify-center items-center  transform transition-transform duration-500 hover:scale-95">
             <Profile
               name="Homam Al yaghshi"
-              role="Full Stack"
+              role="Computer Engineer"
               image="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             />
           </div>
@@ -34,10 +34,10 @@ export default function Home() {
           </div>
 
           {/* Right Section: Profile 2 */}
-          <div className="flex-1 flex justify-center items-center p-4 transform transition-transform duration-500 hover:scale-105 hover:z-10">
+          <div className="flex-1 flex justify-center items-center  transform transition-transform duration-500 hover:scale-95 ">
             <Profile
               name="Omar Snobar"
-              role="Machine Learning"
+              role="Computer Engineer"
               image="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             />
           </div>

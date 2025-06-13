@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="text-center text-gray-500 pb-4">
-      © 2025 Made with ❤️ by Homam
+    <footer className="text-center text-gray-500 ">
+      © 2025 Made with ❤️ by <strong className="text-cyan-400">Homam</strong> 
     </footer>
   );
 }
