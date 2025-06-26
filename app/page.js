@@ -10,7 +10,7 @@ export default function Home() {
       style={{ backgroundImage: "url('/background.jpg')" }}
     >
       {/* Overlay to improve text readability */}
-      <div className="flex flex-col flex-grow  backdrop-blur-xs">
+      <div className="flex flex-col flex-grow  backdrop-blur-xs ">
         <Hero
           title="Star X"
           description="مشروع مبتكر يقوم بتحليل الأجرام السماوية باستخدام الذكاء الصناعي، ويهدف إلى تبسيط استكشاف الكون للباحثين والهواة."
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
           {/* Right Section: Profile 2 */}
-          <div className="flex-1 flex justify-center items-center  transform transition-transform duration-500 hover:scale-95 ">
+          <div className="flex-1 flex justify-center items-center  transform transition-transform duration-500 hover:scale-95 hover:drop-shadow-2xl ">
             <Profile
               name="Omar Snobar"
               role="Computer Engineer"
