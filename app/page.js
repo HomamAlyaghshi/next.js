@@ -16,7 +16,6 @@ export default function Home() {
           description="مشروع مبتكر يقوم بتحليل الأجرام السماوية باستخدام الذكاء الصناعي، ويهدف إلى تبسيط استكشاف الكون للباحثين والهواة."
         />
         {/* Main Content Area */}
-
         <div className="flex flex-col md:flex-row flex-grow items-center justify-around">
           {/* Left Section: Profile 1 */}
           <div className="flex-1 flex justify-center items-center  transform transition-transform duration-500 hover:scale-95">
